@@ -4,13 +4,7 @@ addEventListener("fetch", (event) => {
 });
 
 const routes = {
-  "docker.vivtoum.work": "https://registry-1.docker.io",
-  "quay.vivtoum.work": "https://quay.io",
-  "gcr.vivtoum.work": "https://gcr.io",
-  "k8s-gcr.vivtoum.work": "https://k8s.gcr.io",
-  "k8s.vivtoum.work": "https://registry.k8s.io",
-  "ghcr.vivtoum.work": "https://ghcr.io",
-  "cloudsmith.vivtoum.work": "https://docker.cloudsmith.io",
+  "docker.vivtoum.work": "https://registry-1.docker.io"
 };
 
 function routeByHosts(host) {
