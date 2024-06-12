@@ -4,7 +4,7 @@ addEventListener("fetch", (event) => {
 });
 
 const routes = {
-  "docker.vivtoum.work": "https://registry-1.docker.io"
+  "proxy.vivtoum.work": "https://registry-1.docker.io"
 };
 
 function routeByHosts(host) {
